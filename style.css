@@ -476,3 +476,40 @@ p {
 }
 
 
+@media(width:1440px){
+     .navbar {
+        width: 100%;
+        top: 0;
+        height: 43px;
+        padding: 10px 0;
+    }
+    #hr1{
+        margin-top: 23px;
+    }
+
+    a {
+        position: relative;
+        justify-content: space-evenly;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+#company{
+    position: relative;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: red;
+    margin-left: 50px;
+    margin-bottom: -20px;
+    font-family: monospace;
+}
+    #hr3{
+        margin-top: 400px;
+    }
+
+    .bg{
+        margin-left: 65vh;
+    }
+}
+
+
+
