@@ -1,0 +1,478 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    margin-left: -10px;
+    width: 250vh;
+    margin-top: -10px;
+    background-color: black;
+    position: fixed;
+    height: 43px;
+    opacity: 0.89;
+    z-index: 1;
+
+}
+
+
+
+
+#company {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: red;
+    margin-left: 50px;
+    margin-bottom: -20px;
+    font-family: monospace;
+}
+
+
+.span2 {
+    font-weight: bold;
+    color: red;
+    font-size: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: cursor 2s linear 1s infinite;
+}
+
+
+
+a {
+    margin-left: 110px;
+    text-decoration: none;
+    display: inline;
+    align-items: center;
+    position: relative;
+    color: white;
+    transition: 0.3s ease;
+
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a.active{
+    color: red;
+    text-decoration: underline;
+}
+
+#img1 {
+    background-size: cover;
+    height: 400px;
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    
+    transition: 0.4s ease;
+
+}
+
+#img1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px red;
+}
+
+.h1-primary {
+    position: absolute;
+    color: white;
+    margin-left: 90vh;
+    margin-top: -40vh;
+
+}
+
+
+p {
+    color: white;
+    margin-left: 90vh;
+    margin-top: -25vh;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    height: 6vh;
+    width: 15vh;
+    margin-left: 90vh;
+    margin-top: 2vh;
+    background-color: black;
+    border-radius: 7px;
+    border: 2px solid red;
+    color: red;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+
+    background-color: red;
+    color: black;
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px red;
+
+}
+
+#hr2 {
+    margin-top: 130px;
+    color: rgb(72, 216, 53);
+}
+
+#about {
+    height: 95vh;
+}
+
+.secondary {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+.p-about {
+    position: absolute;
+    margin-left: 25vh;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 30px;
+}
+
+#para {
+    margin-left: 300px;
+    margin-top: -90px;
+}
+
+.skills {
+    margin-left: 40px;
+    height: 150px;
+    width: 150px;
+
+}
+
+.know {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 7vh;
+    color: red;
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 5px;
+    position: absolute;
+    transition: 0.3s ease;
+    margin-top: 15vh;
+    margin-left: 290px;
+}
+
+.know:hover {
+    background-color: red;
+    color: black;
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px red;
+}
+
+
+
+#hr3 {
+    margin-top: 150px;
+}
+
+.bg {
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 170px;
+    width: 750px;
+    background-color: black;
+    height: 170px;
+    border-radius: 10px;
+    border: 1px solid red;
+    transition: 0.5s ease;
+}
+.bg:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px red;
+}
+
+#services {
+    padding: 60px 20px;
+    background-color: black;
+    color: white;
+}
+
+.service-title {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-top: -25px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    width: 260px;
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.service-card h3 {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.service-card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 12px red;
+}
+
+#serv {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.hire {
+    margin-top: 10vh;
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    height: 6vh;
+    width: 15vh;
+    transition: 0.4s ease;
+}
+
+.hire:hover {
+    background-color: red;
+    color: black;
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px red;
+}
+
+@media (max-width: 919px) {
+
+    /* NAVBAR */
+    .navbar {
+        width: 100%;
+        top: 0;
+        height: 23px;
+        padding: 10px 0;
+    }
+
+    a {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    #company {
+        top: 0;
+        font-size: 1.2rem;
+        margin-left: 20px;
+
+    }
+
+    #img2 {
+        height: 50px;
+        width: 50px;
+        margin-top: -15px;
+    }
+
+    /* HERO IMAGE */
+    #img1 {
+        display: block;
+        margin: 80px auto 20px auto;
+        height: 300px;
+        width: 200px;
+    }
+
+    /* HEADING */
+    .h1-primary {
+        position: static;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    /* PARAGRAPH */
+    p {
+        position: static;
+        margin: 10px auto;
+        text-align: center;
+        width: 90%;
+        font-size: 14px;
+    }
+
+    /* BUTTON */
+    .btn {
+        position: static;
+        display: block;
+        margin: 20px auto;
+        width: 140px;
+        height: 45px;
+    }
+
+    /* ABOUT SECTION */
+    .p-about {
+        position: static;
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    #para {
+        margin: 0;
+        text-align: center;
+    }
+
+    /* SKILLS */
+    .skills {
+        display: block;
+        margin: 20px auto;
+        height: 120px;
+        width: 120px;
+    }
+
+    /* KNOW BUTTON */
+    .know {
+        position: static;
+        display: block;
+        margin: 20px auto;
+        width: 150px;
+    }
+
+    /* BG CARD */
+    .bg {
+        width: 90%;
+        margin: 20px auto;
+        height: auto;
+        padding: 10px;
+    }
+
+    #services{
+        margin-top: 10px;
+    }
+
+    #hr3{
+        margin-top: 350px;
+    }
+}
+
+@media(width:320px){
+     .navbar {
+        width: 100%;
+        top: 0;
+        height: 23px;
+        padding: 10px 0;
+    }
+
+    a {
+        margin-left: 5px;
+        font-size: 11px;
+    }
+
+    #company {
+        top: 0;
+        font-size: 1.2rem;
+        margin-left: 0px;
+
+    }
+
+    #hr3{
+        margin-top: 400px;
+    }
+}
+@media(width:375px){
+     .navbar {
+        width: 100%;
+        top: 0;
+        height: 23px;
+        padding: 10px 0;
+    }
+
+    a {
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    #company {
+        top: 0;
+        font-size: 1.2rem;
+        margin-left: 5px;
+
+    }
+
+    #hr3{
+        margin-top: 400px;
+    }
+}
+
+@media(width:425px){
+     .navbar {
+        width: 100%;
+        top: 0;
+        height: 23px;
+        padding: 10px 0;
+    }
+
+    a {
+        margin-left: 14px;
+        font-size: 15px;
+    }
+
+    #company {
+        top: 0;
+        font-size: 1.2rem;
+        margin-left: 10px;
+
+    }
+
+    #hr3{
+        margin-top: 400px;
+    }
+}
+
+@media(width:768px){
+     .navbar {
+        width: 100%;
+        top: 0;
+        height: 23px;
+        padding: 10px 0;
+    }
+
+    a {
+        margin-left: 50px;
+        font-size: 15px;
+    }
+
+    #company {
+        top: 0;
+        font-size: 1.2rem;
+        margin-left: 10px;
+
+    }
+
+    #hr3{
+        margin-top: 400px;
+    }
+}
+
+
