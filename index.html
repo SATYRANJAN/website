@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Protfolio</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -13,11 +13,12 @@
     <section id="home">
         <div class="navbar">
             <span id="company">Satyaranjan</span>
-            <a href="#home" class="active">Home</a>
-            <a href="#about">Skills</a>
-            <a href="#services">Services</a>
-            <a href="#">Project</a>
-            <a href="#">Contact</a>
+
+            <a class="a2" href="#home" class="active">Home</a>
+            <a class="a2" href="#about">Skills</a>
+            <a class="a2" href="#services">Services</a>
+            <a class="a2" href="#projects">Project</a>
+            <a class="a2" href="#contact">Contact</a>
             <hr id="hr1">
         </div>
         <div class="home">
@@ -25,12 +26,8 @@
             <h1 class="h1-primary">Hi, I'm Satyaranjan <br> <span class="span2">Web Developer</span></h1>
             <p>I'm a student web developer learning HTML, CSS and JavaScript. I enjoy building simple and clean websites
                 and improving my skills everyday.</p>
-            <div class="social-icon">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            </div>
-            <button class="btn" href="#">Hire Me</button>
+
+          <a href="#contact">  <button class="btn" >Hire Me</button></a>
         </div>
     </section>
     <hr id="hr2">
@@ -38,21 +35,15 @@
     <section id="about">
         <div>
             <h1 class="secondary">Skills</h1>
+
             <div class="bg">
                 <img src="png-clipart-website-development-javascript-html5-css3-cascading-style-sheets-html-logo-web-design-text-removebg-preview.png"
-                    alt="" class="skills">
-                <button class="know">Click to Know</button>
+                 alt="" class="skills">
+                
+                 <h1 id="web2">Web Development</h1>
+                <a href="web.html"><button class="know">Click to Know</button></a>
             </div>
-            <div class="bg">
-                <img src="png-clipart-website-development-javascript-html5-css3-cascading-style-sheets-html-logo-web-design-text-removebg-preview.png"
-                    alt="" class="skills">
-                <button class="know">Click to Know</button>
-            </div>
-            <div class="bg">
-                <img src="png-clipart-website-development-javascript-html5-css3-cascading-style-sheets-html-logo-web-design-text-removebg-preview.png"
-                    alt="" class="skills">
-                <button class="know">Click to Know</button>
-            </div>
+
         </div>
     </section>
     <hr id="hr3">
@@ -67,7 +58,7 @@
                     I create simple and clean websites using HTML and CSS.
                     Perfect for personal portfolios and small projects.
                 </p>
-                <button class="hire">For Hire</button>
+               <a href="#contact">   <button class="hire">For Hire</button></a>
             </div>
 
             <div class="service-card">
@@ -76,7 +67,7 @@
                     I make websites responsive so they work properly on
                     mobile, tablet and desktop screens.
                 </p>
-                <button class="hire">For Hire</button>
+               <a href="#contact">   <button class="hire">For Hire</button></a>
             </div>
 
             <div class="service-card">
@@ -85,12 +76,80 @@
                     I design website layouts with proper colors, spacing
                     and fonts for a better look.
                 </p>
-                <button class="hire">For Hire</button>
+               <a href="#contact">   <button class="hire">For Hire</button></a>
             </div>
-
-        </div>
+ 
+       </div>
     </section>
     <hr>
+
+    
+
+<section id="projects">
+    <h2 class="project-title">My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Personal responsive portfolio using HTML, CSS and JavaScript.</p>
+            <a href="#" class="project-btn">View</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Faulty Calculator</h3>
+            <p>Beginner JavaScript project with wrong output logic.</p>
+            <a href="#" class="project-btn">View</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Landing Page</h3>
+            <p>Simple landing page with smooth scrolling and animations.</p>
+            <a href="#" class="project-btn">View</a>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="contact-title">Contact Me</h2>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+            <h3>Let’s Work Together</h3>
+            <p>If you have any project or idea, feel free to contact me.</p>
+
+            <div class="info">
+                <span>Email:</span>
+                <p>darkgamer987643@gmail.com</p>
+            </div>
+
+            <div class="info">
+                <span>Phone:</span>
+                <p>+91 XXXXX XXXXX</p>
+            </div>
+        </div>
+
+    <form class="contact-form" id="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit" class="hire2">Send Message</button>
+</form>
+
+<!-- EmailJS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script src="contact.js"></script>
+
+
+    </div>
+</section>
+
+
+
+    
 
 
 </body>
